@@ -1,0 +1,28 @@
+{
+    "sqltools.useNodeRuntime": true,
+    "sqltools.connections": [
+        {
+            "name": "DuckDB",
+            "accessMode": "Read/Write",
+            "previewLimit": 50,
+            "driver": "DuckDB",
+            "group": "mydb.duckdb"
+        }
+    ],
+    "workbench.editorAssociations": {
+        "*.copilotmd": "vscode.markdown.preview.editor",
+        "*.parquet": "duckdb.dataFileViewer",
+        "*.csv": "duckdb.dataFileViewer",
+        "*.tsv": "duckdb.dataFileViewer",
+        "*.xlsx": "duckdb.dataFileViewer"
+    },
+    "duckdb.databases": [
+        {
+            "alias": "mydb",
+            "type": "file",
+            "path": "d:\\dbt_workspace\\my_duckdb_project\\mydb.duckdb",
+            "attached": false
+        }
+    ],
+    "duckdb.defaultDatabase": "mydb"
+}

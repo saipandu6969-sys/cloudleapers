@@ -1,0 +1,6 @@
+customer_id,customer_name,city,status
+1,Pandu,Hyderabad,ACTIVE
+2,Sai,Bangalore,ACTIVE
+3,Krishna,Chennai,INACTIVE
+4,Ram,Mumbai,ACTIVE
+5,Anu,Pune,INACTIVE

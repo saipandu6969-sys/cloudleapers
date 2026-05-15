@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: raw
+    database: mydb
+    schema: main
+
+    tables:
+      - name: raw_employee_data
+        description: "Raw employee data containing messy records"
